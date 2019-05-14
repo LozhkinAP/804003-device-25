@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Андрей Ложкин](https://up.htmlacademy.ru/htmlcss/25/user/804003).
-* Наставник: `Анна Лисененкова(https://htmlacademy.ru/profile/ankhena)`
+* Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena). 
 
 ---
 
