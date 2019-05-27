@@ -51,13 +51,57 @@
 			<p class="main-description">
 				Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.
 			</p>
+			<p class="main-map">
+				<img src="img/map.jpg" width="560" height="222" alt="Улица строитлей, 15">
+			</p>
 			<a class="main-more" href="#">Напишите нам</a>
 		</section>
+
+		<section class="modal modal-mail">
+			<h2 class="visually-hidden">
+				Форма обратной связи
+			</h2>
+			<form class="mail-form" action="mail.php" method="post">
+				<p>
+					<label for="name">Ваше имя:</label>
+					<input class="mail-username" id="name" type="text" name="name" placeholder="Имя Фамилия">
+				</p>
+				<p>
+					<label for="email">Ваш e-mail:</label>
+					<input class="mail-useremail" id="email" type="email" name="email" placeholder="email@example.com">
+				</p>
+
+				<p>
+					<label for="message">Текст письма:</label>
+					<input class="mail-message" id="message" type="text" name="message" placeholder="В свободной форме">
+				</p>
+
+				<button class="mail-button" type="submit">
+					Отправить
+				</button>
+			</form>
+			<button class="modal-close" type="button">
+				Закрыть
+			</button>
+		</section>
+
+		<section class="modal modal-map">
+			<h2 class="visually-hidden">
+				Как до нас добраться
+			</h2>
+			<p>
+				<img src="img/map-big.jpg" width="960" height="559" alt="Улица строитлей, 15">
+			</p>
+			<button class="modal-close" type="button">
+				Закрыть
+			</button>
+		</section>
+
 	</main>	
 	<footer class="footer">
 		<nav class="navigation">
 			<a class="footer-logo"><img src="img/logo-device-footer.svg" width="163" height="35" alt="Логотип магазина Девайс"></a>
-			<p class="focontacts">г. Москва, ул. Строителей, 15</p>
+			<p class="footer-contacts">г. Москва, ул. Строителей, 15</p>
 			<div class="user-navigation">
 				<a class="header-compare" href="compare.html">Сравнить</a>
 				<a class="header-cat" href="cat.html">Корзина</a>
@@ -82,3 +126,4 @@
 	<!--<p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p> -->
 </body>
 </html>
+
