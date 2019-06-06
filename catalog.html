@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Девайс - каталог</title>
+	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 	<header class="header">
@@ -36,37 +37,38 @@
 		</nav>
 	</header>	
 	<main class="container">
-		<h1>Моноподы для селфи</h1>
+		<h1 class="visually-hidden">Каталог магазина Девайс</h1>
+		<h2>Моноподы для селфи</h2>
 		<ul class="breadcrumbs">
 			<li><a href="">Главная</a></li>
 			<li><a href="">Каталог товаров</a></li>
-			<li>Моноподы для селфи</li>
+			<li class="last">Моноподы для селфи</li>
 		</ul>
 		<section class="filter">
-			<h2>Фильтр:</h2>
+			<h3>Фильтр:</h3>
 			<form>
 				<fieldset>
 					<legend>Цвет</legend>
 					<ul>
 			            <li class="filter-option">
-			            	<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="black" checked>
-			            	Черный
-			            </li>						
+			            	<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="black" checked >
+			            	<span>Черный</span>
+			            </li>
 			            <li class="filter-option">
-			            	<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="white">
-			            	Белый
+			            	<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="white" disabled>
+			            	<span>Белый</span>
 			            </li>
 			            <li class="filter-option">
 			            	<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="blue" checked>
-			            	Синий
+			            	<span>Синий</span>
 			            </li>
 			            <li class="filter-option">
 			            	<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="red" checked>
-			            	Красный
+			            	<span>Красный</span>
 			            </li>
 			            <li class="filter-option">
 			            	<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="pink">
-			            	Розовый
+			            	<span>Розовый</span>
 			            </li>				            	
 					</ul>
 				</fieldset>
@@ -75,11 +77,11 @@
 					<ul>
 			            <li class="filter-option">
 			            	<input class="visually-hidden filter-input filter-input-radio" type="radio" name="bluetooth-available" value="yes" checked>
-			            	Есть
+			            	<span>Есть</span>
 			            </li>
 			            <li class="filter-option">
 			            	<input class="visually-hidden filter-input filter-input-radio" type="radio" name="bluetooth-available" value="no">
-			            	Нет
+			            	<span>Нет</span>
 			            </li>			            
 					</ul>						
 				</fieldset>
@@ -88,36 +90,52 @@
 		</section>
 
 		<section class="sort">
-			<h2>Сортировка:</h2>
+			<h3>Сортировка:</h3>
 			<!-- Выделено красным не размечаю-->
 		</section>
 
 		<section class="catalog">
-			<h2 class="visually-hidden">Список товаров</h2>
+			<h4 class="visually-hidden">Список товаров</h4>
 	        <ul class="catalog-list">
 	          <li class="catalog-product">
-	            <a class="catalog-product-image" href="catalog-product.html"><img src="img/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка"></a>
-	            <h3><a class="catalog-product-name" href="catalog-product.html">Любительская селфи-палка</a></h3>
+	            <a class="catalog-product-image" href="catalog-product.html">
+	            	<img src="img/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
+	            </a>
+	            <h4>
+	            	<a class="catalog-product-name" href="catalog-product.html">Любительская селфи-палка</a>
+	            </h4>
 	            <p class="catalog-product-price">500 руб</p>
 	          </li>
 	          <li class="catalog-product">
-	            <a class="catalog-product-image" href="catalog-product.html"><img src="img/item-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка"></a>
-	            <h3><a class="catalog-product-name" href="catalog-product.html">Профессиональная селфи-палка</a></h3>
+	            <a class="catalog-product-image" href="catalog-product.html">
+	            	<img src="img/item-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">
+	            </a>
+	            <h4>
+	            	<a class="catalog-product-name" href="catalog-product.html">Профессиональная селфи-палка</a>
+	            </h4>
 	            <p class="catalog-product-price">1500 руб</p>
 	          </li>	  
 	          <li class="catalog-product">
-	            <a class="catalog-product-image" href="catalog-product.html"><img src="img/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка"></a>
-	            <h3><a class="catalog-product-name" href="catalog-product.html">Непотопляемая селфи-палка</a></h3>
+	            <a class="catalog-product-image" href="catalog-product.html">
+	            	<img src="img/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
+	            </a>
+	            <h4>
+	            	<a class="catalog-product-name" href="catalog-product.html">Непотопляемая селфи-палка</a>
+	            </h4>
 	            <p class="catalog-product-price">2500 руб</p>
 	          </li>	  
 	          <li class="catalog-product">
-	            <a class="catalog-product-image" href="catalog-product.html"><img src="img/item-4.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной»"></a>
-	            <h3><a class="catalog-product-name" href="catalog-product.html">Селфи-палка «Следуй за мной»</a></h3>
+	            <a class="catalog-product-image" href="catalog-product.html">
+	            	<img src="img/item-4.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной»">
+	            </a>
+	            <h4>
+	            	<a class="catalog-product-name" href="catalog-product.html">Селфи-палка «Следуй за мной»</a>
+	            </h4>
 	            <p class="catalog-product-price">4900 руб</p>
 	          </li>	    	          	          
 	        </ul>
 			<div class="catalog-pagination">
-				<h2 class="visually-hidden">Пагинация</h2>
+				<h3 class="visually-hidden">Пагинация</h3>
 				<!-- Выделено красным не размечаю-->
 			</div>
 		</section>
