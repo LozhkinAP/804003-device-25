@@ -1113,45 +1113,45 @@ input[type="radio"].visually-hidden {
 .brands-link-djii {
     width: 260px;
     height: 100px;
-    background-image: url("../img/brand-4.jpg");
+    background: #d9d9d9 url("../img/brand-4.jpg");
 }
 
 .brands-link-djii:hover {
     opacity: 1;
-    background-image: url("../img/brand-4.png");
+    background: url("../img/brand-4.png");
 }
 
 .brands-link-spg {
     width: 260px;
     height: 100px;
-    background-image: url("../img/brand-2.jpg");
+    background: #d9d9d9 url("../img/brand-2.jpg");
 }
 
 .brands-link-spg:hover {
     opacity: 1;
-    background-image: url("../img/brand-2.png");
+    background: url("../img/brand-2.png");
 }
 
 .brands-link-gopro {
     width: 260px;
     height: 100px;
-    background-image: url("../img/brand-3.jpg");
+    background: #d9d9d9 url("../img/brand-3.jpg");
 }
 
 .brands-link-gopro:hover {
     opacity: 1;
-    background-image: url("../img/brand-3.png");
+    background: url("../img/brand-3.png");
 }
 
 .brands-link-vive {
     width: 260px;
     height: 100px;
-    background-image: url("../img/brand-1.jpg");
+    background: #d9d9d9 url("../img/brand-1.jpg");
 }
 
 .brands-link-vive:hover {
     opacity: 1;
-    background-image: url("../img/brand-1.png");
+    background: url("../img/brand-1.png");
 }
 
 .container.main-about {
@@ -1230,6 +1230,7 @@ input[type="radio"].visually-hidden {
     display: inline-block;
     padding-left: 2px;
     letter-spacing: 3.6px;
+    vertical-align: top;
 }
 
 .main-about-info-description {
